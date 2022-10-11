@@ -1,0 +1,64 @@
+@media (max-width:800px){
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    li{
+        clear: both;
+        float: left;
+        width: 100%;
+        color: white;
+        background-color: lightblue;
+    }
+    a{
+        height: 30px;
+        display: block;
+        text-align: center;
+        padding: 10px;
+        font-size: larger;
+        color: white;
+        line-height: 200%;
+        text-decoration: none;
+    }
+    a:hover{
+        background-image:url("images/download.png");
+        background-repeat: no-repeat;
+        background-size: 50px;
+        background-color: red;
+    }
+
+}
+
+@media (min-width:801px){
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    li{
+        float: left;
+        width: 23%;
+        color: white;
+        background-color: lightblue;
+    }
+    a{
+        height: 30px;
+        display: block;
+        text-align: center;
+        padding: 10px;
+        font-size: larger;
+        color: white;
+        line-height: 200%;
+        text-decoration: none;
+    }
+    a:hover{
+        background-image:url("download.png");
+        background-repeat: no-repeat;
+        background-size: 50px;
+        background-color: red;
+    }
+    
+}

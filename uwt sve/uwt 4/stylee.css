@@ -1,0 +1,25 @@
+ul{
+    width: 100%;
+}
+li{
+    list-style-type: none;
+    background-color: pink;
+    padding: 10px;
+    border-bottom-left-radius:10px;
+    border-top-right-radius:10px;
+    width: 23%;
+    margin-right: 5px;
+    float: left;
+    text-align: center;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    line-height: 320%;
+    width: 100%;
+}
+li a:hover{
+    color: aqua;
+    transition: color 1.25s linear;
+}

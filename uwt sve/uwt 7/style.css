@@ -1,0 +1,65 @@
+ul{
+    
+}
+@media(max-width: 800px) {
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    a{
+        height: 30px;
+        padding: 10px;
+        font-size: larger;
+        display: block;
+        line-height: 200%;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+    a:hover{
+        background-color: red;
+        background-image: url("images/pointright.png");
+        background-size: 50px;
+        background-repeat: no-repeat;
+    }
+    li{
+        clear: both;
+        width: 100%;
+        background-color: lightblue;
+        float: left;
+        text-align: center;
+        margin-bottom: 2px;
+    }
+}
+@media (min-width:801px) {
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    a{
+        height: 30px;
+        padding: 10px;
+        font-size: larger;
+        display: block;
+        line-height: 200%;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+    a:hover{
+        background-color: red;
+        background-image: url("images/pointright.png");
+        background-size: 50px;
+        background-repeat: no-repeat;
+    }
+    li{
+        width: 25%;
+        float: left;
+        background-color: lightblue;
+        text-align: center;
+    }
+}

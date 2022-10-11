@@ -1,0 +1,88 @@
+body{
+    margin:0 auto;
+}
+
+#header{
+    position: absolute;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+}
+#svesve{
+    margin-left: 25%;
+}
+#zajedno{
+    display: inline-block;
+    
+    margin-top: 10%;
+    position: relative;
+    margin-bottom: 50px;
+}
+#prvi{
+    width: 25%;
+    background-color: lightgray;
+    display: inline-block;
+    margin-right: 100px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+.button{
+    color: gray;
+    border-radius: 10px;
+    background-color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 100px;
+}
+#drugi{
+    width: 25%;
+    background-color: lightgray;
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+.sve{
+    position: relative;
+    display: inline-block;
+}
+.slika{
+    margin-top: 50px;
+}
+.slika img{
+    width: 400px;
+    position: absolute;
+}
+#gore{
+    background-color: lightgray;
+    padding: 15px;
+    width: 500px;
+    margin-bottom: 50px;
+    position: absolute;
+    margin-left: 450px;
+    margin-bottom: 25px;
+}
+#dolje{
+    background-color: lightgray;
+    padding: 15px;
+    width: 500px;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 250px;
+}
+#footer{
+    position: absolute;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    margin-top: 100%;
+}
